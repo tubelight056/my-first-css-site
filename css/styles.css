@@ -1,0 +1,166 @@
+body
+{
+  margin: 0;
+
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  background-color: #27496d;
+  font-family: 'Capriola', sans-serif;
+}
+h1
+{
+  color: #6decb9;
+  margin-top: 100px;
+  margin-bottom:1px ;
+  font-size: 5.63rem;
+  font-weight: lighter;
+  font-family: 'Pacifico', cursive;
+}
+p
+{
+  color: #dae1e7;
+}
+h2
+{
+  font-size: 2.5rem;
+  color: #66bfbf;
+
+  font-family: 'Acme', sans-serif;
+}
+h3
+{
+
+  font-family: 'Acme', sans-serif;
+
+  color: #66bfbf;
+
+}
+a
+{
+  margin: auto 10px auto 10px;
+  color: #11999E;
+  text-decoration:none;
+}
+/**************************id**********************************/
+#ahustler
+{
+  line-height: 2;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  font-weight: normal;
+  color: #6decb9;
+}
+
+
+/* class*/
+.level1
+{
+  text-align: center;
+
+  height: 752px;
+
+  padding: 10px;
+
+  background-color: #142850;
+/*background-image:url("css\background.webp");*
+
+  /* in here we can make "span" tag to write in inline mode for certain letters */
+
+}
+.btn
+{
+  background-color: #0779e4;
+  padding:10px;
+  color: white;
+  display: inline-block;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+.cloud1
+{
+  width: 15%;
+  position: absolute;
+  top: 10%;
+  left: 57%;
+
+}
+hr{
+  border-style:none;
+  border-top-style: dotted;
+  border-top-width: 10px;
+  width:20%;
+  border-color: #eaf6f6;
+
+
+}
+.cloud2
+{
+  width: 15%;
+  position:absolute;
+  top:50%;
+  left: 20%;
+}
+.mountain
+{
+
+  height: auto;
+
+
+
+}
+.dinomage
+{
+  width:200px;
+  height: 250px;
+}
+.topcontainer
+{
+  text-align: center;
+
+  /*--------------------------position-----------------------------------*/
+  /* the position "relative " means we can change the position of the content using right,left,top,bottom to move opposite
+  direction of what we giving in code as it create space at the side of what we giving from the original position
+  !!!!!note it can overflow with other content */
+  /* the position "absolute " means moving the content using the parent content*/
+  /* the position "fixed " is used to remain same in that position when we scroll the page */
+
+
+}
+.skill-image1
+{
+  width:50%;
+  height:300px;
+  float: left;
+  margin-right: 30px;
+}
+
+
+.skill-image2
+{
+  width:50%;
+  height:300px;
+  float:right;
+  margin-left: 30px;
+}
+.skill-row
+{
+  width: 50%;
+  margin: 100px 25%;
+  text-align: left;
+  line-height: 2;
+  padding-top: 20px;
+}
+
+.bottomcontainer
+{
+
+text-align: center;
+background-color: #142850;
+padding-bottom: 20px;
+width:100%;
+padding-top: 20px;
+
+/* here  the div are in display:blocked , we can use"inline " to appear in the same line but it cant access the width, height properties
+so we can use"inline blocked " to access the both feature */
+
+}
